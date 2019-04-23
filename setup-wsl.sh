@@ -26,6 +26,13 @@ cd /data/software
 sudo wget https://nodejs.org/dist/v11.14.0/node-v11.14.0-linux-x64.tar.xz
 sudo tar Jxvf node-v11.14.0-linux-x64.tar.xz
 sudo cp -r node-v11.14.0-linux-x64/* /usr/local/bin
+# 安装redis-cli
+cd /data/software
+sudo wget http://download.redis.io/redis-stable.tar.gz
+sudo tar xvzf redis-stable.tar.gz
+cd redis-stable
+sudo make
+sudo cp src/redis-cli /usr/local/bin/
 # 创建本地盘符的软链接
 sudo ln -s /mnt/c /c
 sudo ln -s /mnt/d /d
