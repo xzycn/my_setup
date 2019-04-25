@@ -12,7 +12,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 > /etc/apt/sources.list
 sudo apt update
 sudo apt upgrade
-sudo apt-get install zlib1g-dev build-essential libssl-dev libffi-dev python3-dev libmysqlclient-dev
+sudo apt-get install zlib1g-dev build-essential libssl-dev libffi-dev python3-dev libmysqlclient-dev libbz2-dev
 sudo mkdir -p /data/software && cd /data/software
 # 安装Python
 sudo wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz
