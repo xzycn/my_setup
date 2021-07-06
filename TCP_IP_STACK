@@ -1,0 +1,6 @@
+net.ipv4.ip_default_ttl=128
+net.ipv4.route.min_adv_mss=1460
+net.ipv4.tcp_rmem=8192 87380 4194304
+net.ipv4.tcp_wmem=8192 87380 4194304
+net.ipv4.tcp_timestamps=0
+net.ipv4.tcp_window_scaling=0
